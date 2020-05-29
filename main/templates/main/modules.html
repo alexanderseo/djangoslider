@@ -1,0 +1,57 @@
+{% extends "main/wrapper.html" %}
+
+{% block content %}
+    {% load static %}
+       
+    <section id="account">  
+    	<div class="container">
+        	<h4 class="breadcrumbs">Главная /</h4>
+            <h2 class="title">Модули</h2>
+            
+            <div class="acc_block">
+            
+           
+            	
+                <div class="acc_modules">
+                    {% load static %}
+                	<table class="acc_table" width="100%" border="1" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <th class="name_th">Название</th>
+                        <th class="descript">Описание</th>
+                        <th class="img">Картинки</th>
+                        <th class="price_table">Цена</th>
+                        <th class="select">Выбрать</th>
+                      </tr>
+                      <tr>
+                        <td><span class="names">vifort.ru</p></td>
+                        <td><span>Дизайн сайта полностью готов и продается. Помимо главной, готовы еще 28 страниц (ПУ, профили и все прочие страницы для хостинга серверов)</span></td>
+                       <td><div class="img"><a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a></div></td>
+                        <td><span class="sell_price">16 000</span></td>
+                        <td><label for="chk5" class="select_lbl"></label><input id="chk5" type="checkbox"></td>
+                      </tr>
+                         <tr>
+                      	<td><span class="names">vifort.ru</p></td>
+                        <td><span>Дизайн сайта полностью готов и продается. Помимо главной, готовы еще 28 страниц (ПУ, профили и все прочие страницы для хостинга серверов)</span></td>
+                        <td><div class="img"><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a></div></td>
+                        <td><span class="sell_price">16 000</span></td>
+                        <td><label for="chk0" class="select_lbl"></label><input id="chk0" type="checkbox"></td>
+                      </tr>
+
+                    </table>
+                    
+                    <div class="total">
+                    	<div class="total_position"><i>3</i>позиции</div><span>Общая сумма:</span><strong class="total_price">125 000 </strong>
+                    </div>
+                    <a href="#" class="btn_buy-total">купить</a>
+
+                </div>
+            </div>  
+            
+        </div>
+    </section>
+    
+{% endblock %}
