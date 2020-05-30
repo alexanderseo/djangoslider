@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="89016538-f4cb-4ea8-860c-f06c6523b39f" name="Default" comment="test">
-      <change beforePath="$PROJECT_DIR$/.idea/easyms.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/easyms.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main/static/css/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/css/style.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/templates/main/wrapper.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/wrapper.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -19,20 +16,20 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="wrapper.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main/templates/main/wrapper.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="396">
-              <caret line="100" column="6" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+            <state relative-caret-position="291">
+              <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
+      <file leaf-file-name="style.css" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="2267" column="43" lean-forward="true" selection-start-line="2267" selection-start-column="43" selection-end-line="2267" selection-end-column="43" />
+            <state relative-caret-position="118">
+              <caret line="2255" column="1" lean-forward="true" selection-start-line="2255" selection-start-column="1" selection-end-line="2255" selection-end-column="1" />
             </state>
           </provider>
         </entry>
@@ -75,8 +72,8 @@
         <option value="$PROJECT_DIR$/main/urls.py" />
         <option value="$PROJECT_DIR$/main/views.py" />
         <option value="$PROJECT_DIR$/main/templates/main/index.html" />
-        <option value="$PROJECT_DIR$/main/static/css/style.css" />
         <option value="$PROJECT_DIR$/main/templates/main/wrapper.html" />
+        <option value="$PROJECT_DIR$/main/static/css/style.css" />
       </list>
     </option>
   </component>
@@ -660,11 +657,6 @@
     <entry file="file://$PROJECT_DIR$/main/static/css/fancybox_overlay.png">
       <provider selected="true" editor-type-id="images" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/lightbox.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2784" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main/static/css/jquery.fancybox-thumbs.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-354" />
@@ -680,17 +672,22 @@
         <state relative-caret-position="-2514" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
+    <entry file="file://$PROJECT_DIR$/main/templates/main/wrapper.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="2267" column="43" lean-forward="true" selection-start-line="2267" selection-start-column="43" selection-end-line="2267" selection-end-column="43" />
+        <state relative-caret-position="291">
+          <caret line="90" column="34" lean-forward="true" selection-start-line="90" selection-start-column="34" selection-end-line="90" selection-end-column="34" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/templates/main/wrapper.html">
+    <entry file="file://$PROJECT_DIR$/main/static/css/lightbox.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="100" column="6" lean-forward="true" selection-start-line="100" selection-start-column="6" selection-end-line="100" selection-end-column="6" />
+        <state relative-caret-position="-2784" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/static/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="118">
+          <caret line="2255" column="1" lean-forward="true" selection-start-line="2255" selection-start-column="1" selection-end-line="2255" selection-end-column="1" />
         </state>
       </provider>
     </entry>
