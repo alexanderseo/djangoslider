@@ -1405,7 +1405,7 @@ ul.service_info li.second span {
 	  border-radius: 5px;
 	  text-decoration: none;
 	  background:none;
-	  width:192px;
+	  width:92px;
 }
 
 .popup .register form div input:hover {
@@ -1414,7 +1414,7 @@ ul.service_info li.second span {
 }
 
 #popup2 {
-	height:254px;
+  height: 254px;
 	margin-top:-127px;
 }
 
