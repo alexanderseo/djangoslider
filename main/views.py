@@ -20,3 +20,13 @@ def textpage (request):
 
 def account (request):
     return render(request, 'main/account.html')
+
+def monitoring (request):
+    return render(request, 'main/monitoring.html')
+
+def boost (request):
+    return render(request, 'main/boost.html')
+
+def masterserver (request):
+    return render(request, 'main/masterserver.html')
+

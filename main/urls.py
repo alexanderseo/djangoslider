@@ -12,4 +12,8 @@ urlpatterns = [
     path('reviews/', views.reviews, name='reviews'),
     path('text-page/', views.textpage, name='textpage'),
     path('account/', views.account, name='account'),
+    path('monitoring/', views.monitoring, name='monitoring'),
+    path('boost/', views.boost, name='boost'),
+    path('masterserver/', views.masterserver, name='masterserver'),
+
 ]
