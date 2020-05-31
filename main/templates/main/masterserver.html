@@ -1,0 +1,66 @@
+{% extends "main/wrapper.html" %}
+
+{% block content %}
+    {% load static %}
+         <nav>
+            <div class="container">
+                {% load static %}
+                <h1 class="logo"><a href="/"></a></h1>
+                <ul class="menu">
+                    <li class="mon"><a href="/monitoring">Мониторинги</a></li>
+                    <li class="boost"><a href="/boost">Буст</a></li>
+                    <li class="server active"><a href="/masterserver">МастерСервер</a></li>
+                    <li class="build"><a href="/">Сборки</a></li>
+                    <li class="download"><a href="/">Сайт скачки</a></li>
+                </ul>
+            </div>
+        </nav>
+    <section id="account">  
+    	<div class="container">
+            <h2 class="title">МастерСервер</h2>
+            <div class="acc_block">
+                <div class="acc_modules">
+                    <h3>Зачем нужен МастерСервер?</h3>
+                        <p>МастерСервер неотъемлемая часть проекта по раскуртке игровых серверов кс 1.6, ксс. Без него невозможна работа современного мониторинга игровых серверов cs 1.6, css, css v34.</p>
+                        <p>С помощью программы, называемой MasterServer, производится добавление серверов добавленных в мониторинг кс 1.6 в клиент игры. Иными словами, когда игрок нажимает в клиенте кс 1.6 кнопку обновить список серверов, идет запрос к мастерсерверу, который в свою очередь запрашивает у мониторинга игровых серверов какие серверы отобразить в списке игроку.</p>
+                    {% load static %}
+                	<table class="acc_table" width="100%" border="1" cellspacing="0" cellpadding="0">
+                      <tr>
+                        <th class="name_th">Название</th>
+                        <th class="descript">Описание</th>
+                        <th class="img">Картинки</th>
+                        <th class="price_table">Цена</th>
+                      </tr>
+                      <tr>
+                        <td><span class="names">МастерСервер</p></td>
+                        <td><span>Базовый функуионал программы в которой присутсвует веб интерфейс панели управления, через которую можно формировать список серверов, добавлять и удалять серверы из списка. Запускать, останавливать и перезапускать мастерсервер.</span></td>
+                       <td><div class="img"><a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-2" href="{% static 'img/name-img.png' %}"><img src="{% static 'img/name-img.png' %}"alt=""/></a></div></td>
+                        <td><span class="sell_price">7000</span></td>
+                      </tr>
+                        <tr>
+                      	<td><span class="names">Модуль итеграции</p></td>
+                        <td><span>Данный модуль добавляет возможность соединить и автоматизировать работу мастерсервера с мониторингом. Серверы добавляемые в платные услуги мониторинга будут автоматически добавляться и удаляться из мастерсервера</span></td>
+                        <td><div class="img"><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a></div></td>
+                        <td><span class="sell_price">3000</span></td>
+                      </tr>
+                        <tr>
+                      	<td><span class="names">Модуль стастистики</p></td>
+                        <td><span>С помощью данного модуля отображается статситика мастерсервера. Кол-во уникальных игроков, обращений и чего то ещё. Всё в виде графиков в веб панели управления.</span></td>
+                        <td><div class="img"><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a>
+<a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static 'img/name-img.png'%}"><img src="{% static 'img/name-img.png'%}"alt=""/></a></div></td>
+                        <td><span class="sell_price">5000</span></td>
+                      </tr>
+                    </table>
+                </div>
+            </div>
+            <blockquote>После покупки MasterServer Вы можете сами установить его или обратиться к сотруднику тех поддержки, который установит и настроит вам мастерсервер.</blockquote>
+            
+        </div>
+    </section>
+    
+{% endblock %}

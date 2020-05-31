@@ -2,6 +2,19 @@
 
 {% block content %}
     {% load static %}
+        <nav>
+            <div class="container">
+                {% load static %}
+                <h1 class="logo"><a href="/"></a></h1>
+                <ul class="menu">
+                    <li class="mon"><a href="/monitoring">Мониторинги</a></li>
+                    <li class="boost"><a href="/boost">Буст</a></li>
+                    <li class="server"><a href="/masterserver">МастерСервер</a></li>
+                    <li class="build"><a href="/">Сборки</a></li>
+                    <li class="download"><a href="/">Сайт скачки</a></li>
+                </ul>
+            </div>
+        </nav>
         <section id="slider">
              <ul class="slides">
               <li class="slide1"><img class="slide_img" src="{% static "img/slide1.png" %}" alt=""/><strong class="sell">Продажа</strong><span class="info_sell">мониторингов, клиентов игры CS, сайты под скачку клиента</span><a href="#" class="btn_buy">купить</a></li>
@@ -37,66 +50,65 @@
                 <div id="tab1">
                 <div class="carousel">
                     <ul class="items">
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="img/pf_img0.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="img/pf_img1.png"><img src="img/pf_img1.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="img/pf_img2.png"><img src="img/pf_img2.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="img/pf_img3.png"><img src="img/pf_img3.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="img/pf_img4.png"><img src="img/pf_img4.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="img/pf_img5.png"><img src="img/pf_img5.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="img/pf_img6.png"><img src="img/pf_img6.png" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="{% static "img/pf_img0.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="{% static "img/pf_img1.png" %}"><img src="{% static "img/pf_img1.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="{% static "img/pf_img2.png" %}"><img src="{% static "img/pf_img2.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="{% static "img/pf_img3.png" %}"><img src="{% static "img/pf_img3.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="{% static "img/pf_img4.png" %}"><img src="{% static "img/pf_img4.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="{% static "img/pf_img5.png" %}"><img src="{% static "img/pf_img5.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="{% static "img/pf_img6.png" %}"><img src="{% static "img/pf_img6.png" %}" alt="" /></a></li>
                     </ul>
                 </div>
                 </div>
                 <div id="tab2">
                 <div class="carousel">
                     <ul class="items">
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-8" title="Название 1" href="img/pf_img6.png"><img src="img/pf_img6.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-9" title="Название 1" href="img/pf_img0.png"><img src="img/pf_img0.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-10" title="Название 1" href="img/pf_img1.png"><img src="img/pf_img1.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-11" title="Название 1" href="img/pf_img2.png"><img src="img/pf_img2.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-12" title="Название 1" href="img/pf_img3.png"><img src="img/pf_img3.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-13" title="Название 1" href="img/pf_img4.png"><img src="img/pf_img4.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-14" title="Название 1" href="img/pf_img5.png"><img src="img/pf_img5.png" alt="" /></a></li>
-
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="{% static "img/pf_img0.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="{% static "img/pf_img1.png" %}"><img src="{% static "img/pf_img1.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="{% static "img/pf_img2.png" %}"><img src="{% static "img/pf_img2.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="{% static "img/pf_img3.png" %}"><img src="{% static "img/pf_img3.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="{% static "img/pf_img4.png" %}"><img src="{% static "img/pf_img4.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="{% static "img/pf_img5.png" %}"><img src="{% static "img/pf_img5.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="{% static "img/pf_img6.png" %}"><img src="{% static "img/pf_img6.png" %}" alt="" /></a></li>
                     </ul>
                 </div>
                 </div>
                 <div id="tab3">
                 <div class="carousel">
                     <ul class="items">
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-15" title="Название 1" href="img/pf_img0.png"><img src="img/pf_img0.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-16" title="Название 1" href="img/pf_img1.png"><img src="img/pf_img1.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-17" title="Название 1" href="img/pf_img2.png"><img src="img/pf_img2.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-18" title="Название 1" href="img/pf_img3.png"><img src="img/pf_img3.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-19" title="Название 1" href="img/pf_img4.png"><img src="img/pf_img4.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-20" title="Название 1" href="img/pf_img5.png"><img src="img/pf_img5.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-21" title="Название 1" href="img/pf_img6.png"><img src="img/pf_img6.png" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="{% static "img/pf_img0.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="{% static "img/pf_img1.png" %}"><img src="{% static "img/pf_img1.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="{% static "img/pf_img2.png" %}"><img src="{% static "img/pf_img2.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="{% static "img/pf_img3.png" %}"><img src="{% static "img/pf_img3.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="{% static "img/pf_img4.png" %}"><img src="{% static "img/pf_img4.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="{% static "img/pf_img5.png" %}"><img src="{% static "img/pf_img5.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="{% static "img/pf_img6.png" %}"><img src="{% static "img/pf_img6.png" %}" alt="" /></a></li>
                     </ul>
                 </div>
                 </div>
                 <div id="tab4">
                 <div class="carousel">
                     <ul class="items">
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-22" title="Название 1" href="img/pf_img0.png"><img src="img/pf_img0.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-23" title="Название 1" href="img/pf_img1.png"><img src="img/pf_img1.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-24" title="Название 1" href="img/pf_img2.png"><img src="img/pf_img2.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-25" title="Название 1" href="img/pf_img3.png"><img src="img/pf_img3.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-26" title="Название 1" href="img/pf_img4.png"><img src="img/pf_img4.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-27" title="Название 1" href="img/pf_img5.png"><img src="img/pf_img5.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-28" title="Название 1" href="img/pf_img6.png"><img src="img/pf_img6.png" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="{% static "img/pf_img0.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="{% static "img/pf_img1.png" %}"><img src="{% static "img/pf_img1.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="{% static "img/pf_img2.png" %}"><img src="{% static "img/pf_img2.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="{% static "img/pf_img3.png" %}"><img src="{% static "img/pf_img3.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="{% static "img/pf_img4.png" %}"><img src="{% static "img/pf_img4.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="{% static "img/pf_img5.png" %}"><img src="{% static "img/pf_img5.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="{% static "img/pf_img6.png" %}"><img src="{% static "img/pf_img6.png" %}" alt="" /></a></li>
                     </ul>
                 </div>
                 </div>
                 <div id="tab5">
                 <div class="carousel">
                     <ul class="items">
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-29" title="Название 1" href="img/pf_img0.png"><img src="img/pf_img0.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-30" title="Название 1" href="img/pf_img1.png"><img src="img/pf_img1.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-31" title="Название 1" href="img/pf_img2.png"><img src="img/pf_img2.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-32" title="Название 1" href="img/pf_img3.png"><img src="img/pf_img3.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-33" title="Название 1" href="img/pf_img4.png"><img src="img/pf_img4.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-34" title="Название 1" href="img/pf_img5.png"><img src="img/pf_img5.png" alt="" /></a></li>
-                        <li><a class="fancybox-thumb" rel="fancybox-thumb-35" title="Название 1" href="img/pf_img6.png"><img src="img/pf_img6.png" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-1" title="Название 1" href="{% static "img/pf_img0.png" %}"><img src="{% static "img/pf_img0.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-2" title="Название 1" href="{% static "img/pf_img1.png" %}"><img src="{% static "img/pf_img1.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-3" title="Название 1" href="{% static "img/pf_img2.png" %}"><img src="{% static "img/pf_img2.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-4" title="Название 1" href="{% static "img/pf_img3.png" %}"><img src="{% static "img/pf_img3.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-5" title="Название 1" href="{% static "img/pf_img4.png" %}"><img src="{% static "img/pf_img4.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-6" title="Название 1" href="{% static "img/pf_img5.png" %}"><img src="{% static "img/pf_img5.png" %}" alt="" /></a></li>
+                        <li><a class="fancybox-thumb" rel="fancybox-thumb-7" title="Название 1" href="{% static "img/pf_img6.png" %}"><img src="{% static "img/pf_img6.png" %}" alt="" /></a></li>
                     </ul>
                 </div>
                 </div>
@@ -107,8 +119,8 @@
             <div class="container">
                 <h2 class="title">Сервисы</h2>
                 <ul class="service_info">
-                    <li class="first"><img src="img/service_img1.png" alt="" /><span><strong>Easy Def</strong>Сервис по защите владельцев Мастер-Серверов от мошенничества<a href="#" class="btn-more">Подробнее</a></span></li>
-                    <li class="second"><img src="img/service_img2.png" alt="" /><span><strong>Stats.Easy</strong>Сервис по проверке и сборке статистики <br>Мастер-Серверов<a href="#" class="btn-more">Подробнее</a></span></li>
+                    <li class="first"><img src="{% static "img/service_img1.png" %}" alt="" /><span><strong>Easy Def</strong>Сервис по защите владельцев Мастер-Серверов от мошенничества<a href="#" class="btn-more">Подробнее</a></span></li>
+                    <li class="second"><img src="{% static "img/service_img2.png" %}" alt="" /><span><strong>Stats.Easy</strong>Сервис по проверке и сборке статистики <br>Мастер-Серверов<a href="#" class="btn-more">Подробнее</a></span></li>
                 </ul>
             </div>
         </section>
@@ -117,10 +129,10 @@
             <div class="container">
                 <h2 class="title">Отзывы</h2>
                 <ul class="list_reviews">
-                    <li><span><img src="img/rev_img1.png" alt="" /><strong>Джон Траволта</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
-                    <li><span><img src="img/rev_img2.png" alt="" /><strong>Стив Джобс</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
-                    <li><span><img src="img/rev_img3.png" alt="" /><strong>Джордж Клуни</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
-                    <li><span><img src="img/rev_img4.png" alt="" /><strong>Селена Гомез</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный.. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
+                    <li><span><img src="{% static "img/rev_img1.png" %}" alt="" /><strong>Джон Траволта</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
+                    <li><span><img src="{% static "img/rev_img2.png" %}" alt="" /><strong>Стив Джобс</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
+                    <li><span><img src="{% static "img/rev_img3.png" %}" alt="" /><strong>Джордж Клуни</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
+                    <li><span><img src="{% static "img/rev_img4.png" %}" alt="" /><strong>Селена Гомез</strong><em>20.12.2015</em></span><i>Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего <p class="full_reviews"> Как-то, насмотревшись на наших партнеров, которые предоставляли раскрутку для Vifort – владельцев мониторингов, Павлу захотелось сделать свой собственный.. Так как делать что-то среднее или по шаблону мы не умеем, то начали разработку своего</p></i><a class="togle" href="javascript:void(0);"><q>Развернуть</q><b>Свернуть</b></a></li>
                 </ul>
                 <div class="reviews_links">
                     <a href="#" class="btn-more">Все отзывы</a>
