@@ -1,4 +1,6 @@
 {% extends "main/wrapper.html" %}
+{% load slider_tags %}
+{% load static %}
 
 {% block content %}
     {% load static %}
@@ -15,14 +17,10 @@
                 </ul>
             </div>
         </nav>
-        <section id="slider">
-             <ul class="slides">
-              <li class="slide1"><img class="slide_img" src="{% static "img/slide1.png" %}" alt=""/><strong class="sell">Продажа</strong><span class="info_sell">мониторингов, клиентов игры CS, сайты под скачку клиента</span><a href="#" class="btn_buy">купить</a></li>
-              <li class="slide2"><img class="slide_img" src="{% static "img/slide2.png" %}" alt=""/><strong class="sell" style="background:none;">Мониторинг</strong><span class="info_sell">Игровые проекты разных направлений и тематик: CS, Rust</span><a href="#" class="btn_buy">купить</a></li>
-              <li class="slide3"><img class="slide_img" src="{% static "img/slide3.png" %}" alt=""/><strong class="sell" style="background:none;">Сайт скачать клиент</strong><span class="info_sell">Игровые проекты разных направлений и тематик: CS, Rust</span><a href="#" class="btn_buy">купить</a></li>
-            </ul>
 
-        </section>
+        <!-- блок слайдер, воткни, куда хочешь -->
+        {% block_slider %}
+        <!-- блок слайдер, воткни, куда хочешь -->
 
         <section id="products">
             <div class="container">

@@ -1,0 +1,14 @@
+{% load static %}
+{% load thumbnail %}
+
+<section id="slider">
+    <ul class="slides">
+        {% for slide in slider_block %}
+        <li class="slide1">
+            <img class="slide_img" src="{% if slide.slideimg %}{{ slide.slideimg|thumbnail_url:"slide" }}{% else %}{% static 'images/01.jpg' %}{% endif %}" alt="{{ slide.description }}"/>
+            <strong class="sell">{{ slide.title }}</strong>
+            <span class="info_sell">{{ slide.description }}</span>
+            <a href="{{ slide.linkbutton }}" class="btn_buy">{{ slide.namebutton }}</a></li>
+        {% endfor %}
+    </ul>
+</section>

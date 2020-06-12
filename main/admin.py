@@ -1,3 +1,9 @@
 from django.contrib import admin
+from main.models import Slider
 
-# Register your models here.
+@admin.register(Slider)
+class SliderAdmin(admin.ModelAdmin):
+    list_display = ('name',)
+
+admin.site.site_title = 'Личный кабинет сайта'
+admin.site.site_header = 'Личный кабинет'
